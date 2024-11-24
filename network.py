@@ -2,8 +2,8 @@ import random
 
 import torch
 import torch.backends.cudnn as cudnn
-from KM_models import *
-from KCT_model import *
+from KM_module import *
+from KCT_module import *
 from tools import *
 from models import *
 
