@@ -1,7 +1,7 @@
 import torch
 from transformers import BertTokenizer, SwinModel
 from transformers import  BertConfig, BertModel
-from models import *
+from modules import *
 
 def my_cos(representation1, representation2):
     sim = (1 + ((torch.sum(representation1 * representation2, 1) / (
